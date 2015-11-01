@@ -1,3 +1,6 @@
+#ifndef FILE_DATA_H
+#define FILE_DATA_H
+
 #define FN_TYPE_BEGIN    1
 //#define FN_TYPE_DATA    2
 #define FN_TYPE_END     2
@@ -23,3 +26,5 @@ struct file_node {
     u_int8_t data[FN_MAXDATA];
 } file_data;
 };
+
+#endif /* FILE_DATA_H */
